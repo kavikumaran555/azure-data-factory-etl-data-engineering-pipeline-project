@@ -1,5 +1,5 @@
-##Azure End-to-End Data Pipeline Project##
-#Project Overview#
+## Azure End-to-End Data Pipeline Project ##
+# Project Overview #
 
 This project demonstrates an end-to-end data pipeline built using Microsoft Azure services. The pipeline takes a CSV file as input, stores it in Azure Blob Storage, processes it using Azure Data Factory (ETL), and loads the data into Azure SQL Database for querying.
 
