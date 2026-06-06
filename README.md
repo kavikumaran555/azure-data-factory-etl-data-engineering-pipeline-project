@@ -28,31 +28,31 @@ Azure Resources Created
 
 Shows all resources used in this project.
 
-![Azure Resources](resources sql database, sql server, storage account, data factory.PNG)
+![Azure Resources](resources_sql_database,_sql_server,_storage_account,_data_factory.PNG)
 
-Azure Storage Account (Blob Storage)
+### Azure Storage Account (Blob Storage) ###
 
 CSV file uploaded into Blob container.
 
-![Blob Storage](azure blob storage account.PNG)
+![Blob Storage](azure_blob_storage_account.PNG)
 
-Azure Data Factory Pipeline
+### Azure Data Factory Pipeline ###
 
 ETL pipeline created using Copy Activity.
 
-![ADF Pipeline](azure data factory.PNG)
+![Azure Data Factory](azure_data_factory.PNG)
 
-SQL Server in Azure
+### SQL Server in Azure ###
 
 SQL Server setup in Azure portal.
 
-![SQL Server](sql server in azure.PNG)
-
-Data Loaded in Azure SQL Database
+![SQL Server](sql_server_in_azure.PNG)
+ 
+### Data Loaded in Azure SQL Database ###
 
 Data successfully available in SQL Query Editor.
 
-![SQL Data](table showing in azure sql database query editor.PNG)
+![SQL Data](table_showing_in_azure_sql_database_query_editor.PNG)
 
 ### Result ###
 
