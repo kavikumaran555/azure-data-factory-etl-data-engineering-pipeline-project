@@ -1,2 +1,68 @@
-# azure-data-factory-etl-data-engineering-pipeline-project
-End-to-end data pipeline built using Microsoft Azure services. This project demonstrates ingestion of CSV data into Azure Blob Storage, transformation and movement using Azure Data Factory (ADF), and loading into Azure SQL Database for structured storage.
+##Azure End-to-End Data Pipeline Project
+#Project Overview
+
+This project demonstrates an end-to-end data pipeline built using Microsoft Azure services. The pipeline takes a CSV file as input, stores it in Azure Blob Storage, processes it using Azure Data Factory (ETL), and loads the data into Azure SQL Database for querying.
+
+Architecture Flow
+
+CSV File → Azure Blob Storage → Azure Data Factory → Azure SQL Database
+
+Tools and Services Used
+Azure Blob Storage (data storage)
+Azure Data Factory (ETL pipeline)
+Azure SQL Database (data warehouse)
+SQL Server (managed service in Azure)
+Project Steps
+Created Azure Storage Account and Blob Container
+Uploaded CSV file into Blob Storage
+Created Azure SQL Server and Azure SQL Database
+Created Azure Data Factory instance
+Created Linked Services for:
+Azure Blob Storage
+Azure SQL Database
+Built pipeline in Azure Data Factory
+Copied data from Blob Storage to Azure SQL Database
+Verified loaded data using SQL Query Editor
+Screenshots
+Azure Resources Created
+
+Shows all resources used in this project.
+
+![Azure Resources](resources sql database, sql server, storage account, data factory.PNG)
+
+Azure Storage Account (Blob Storage)
+
+CSV file uploaded into Blob container.
+
+![Blob Storage](azure blob storage account.PNG)
+
+Azure Data Factory Pipeline
+
+ETL pipeline created using Copy Activity.
+
+![ADF Pipeline](azure data factory.PNG)
+
+SQL Server in Azure
+
+SQL Server setup in Azure portal.
+
+![SQL Server](sql server in azure.PNG)
+
+Data Loaded in Azure SQL Database
+
+Data successfully available in SQL Query Editor.
+
+![SQL Data](table showing in azure sql database query editor.PNG)
+
+Result
+
+The pipeline successfully moves data from a CSV file in Azure Blob Storage to Azure SQL Database using Azure Data Factory.
+
+This confirms:
+
+Data ingestion works
+ETL pipeline is functional
+Data is successfully stored and queryable in SQL
+Conclusion
+
+This project demonstrates a basic but complete Azure-based data engineering workflow covering storage, transformation, and loading of data using cloud services.
